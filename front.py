@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Base URL do backend Flask
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "https://streamlit-aps3-enzo-perego.onrender.com/"
 
 # Função para buscar um item pelo ID
 def get_one_item(endpoint, item_id):
